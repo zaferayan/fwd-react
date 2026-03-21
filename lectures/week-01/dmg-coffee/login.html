@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş Yap | DMG Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-auth-mode="login">
+    <main class="container auth-page">
+      <section class="auth-card">
+        <div class="hero-brand">
+          <img
+            class="hero-logo"
+            src="./logo-small-black.png"
+            alt="DMG Coffee logo"
+          />
+          <span class="eyebrow">DMG Coffee</span>
+        </div>
+
+        <h1 class="auth-title">Giriş Yap</h1>
+        <p id="authPageStatus" class="muted">Hesabınızla giriş yapın.</p>
+        <div id="currentAuthInfo" class="muted"></div>
+
+        <form id="authForm" class="auth-page-form">
+          <div class="field full">
+            <label for="authEmail">E-posta</label>
+            <input
+              id="authEmail"
+              name="email"
+              type="email"
+              required
+              autocomplete="email"
+            />
+          </div>
+
+          <div class="field full">
+            <label for="authPassword">Şifre</label>
+            <input
+              id="authPassword"
+              name="password"
+              type="password"
+              required
+              minlength="6"
+              autocomplete="current-password"
+            />
+          </div>
+
+          <button class="btn-primary" type="submit">Giriş Yap</button>
+        </form>
+
+        <button id="authPageLogout" class="btn-ghost" type="button">
+          Çıkış Yap
+        </button>
+
+        <p class="auth-switch">
+          Hesabın yok mu?
+          <a href="./register.html?redirect=./index.html">Kayıt Ol</a>
+        </p>
+        <p class="auth-switch"><a href="./index.html">Ana sayfaya dön</a></p>
+      </section>
+    </main>
+
+    <script type="module" src="./js/auth-page.js"></script>
+  </body>
+</html>
