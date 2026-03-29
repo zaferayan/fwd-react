@@ -1,0 +1,13 @@
+{
+  "name": "quizbox",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "npm run typecheck && esbuild index.ts --bundle --servedir=. --outdir=dist",
+    "build": "npm run typecheck && esbuild index.ts --bundle --outfile=dist/index.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -71,3 +71,12 @@ Bu repo, YouTube'da yayınlanan **2 derslik TypeScript eğitim serisinin** kayna
 - `readonly` ile `const` aynı şey midir? Farkları nedir?
 - `enum` yerine hangi alternatifler kullanılabilir? Avantajları ve dezavantajları nelerdir?
 - TypeScript tip hataları runtime'da da hata verir mi? Neden?
+
+### Ders 2
+- `never` tipi ne zaman ortaya çıkar, ne işe yarar?
+- Generic constraint (`<T extends ...>`) ne zaman gerekir?
+- `keyof` ve `typeof` operatörleri arasındaki fark nedir?
+- `Partial<T>` ile `Required<T>` gerçekte nasıl çalışır — yani iç implementasyonu nedir?
+- `infer` keyword'ü ne işe yarar, nerede kullanılır?
+- Declaration file (`.d.ts`) nedir, neden gerekebilir?
+- ÖDEV: TDD (Test Driven Development) nedir, neye yarar?
