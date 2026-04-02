@@ -1,0 +1,771 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "fp-GoYSq2S-9PHjlsqQyO",
+      "type": "text",
+      "x": -633.6519036171246,
+      "y": 9548.41098692383,
+      "width": 639.57568359375,
+      "height": 1120,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5O",
+      "roundness": null,
+      "seed": 371225410,
+      "version": 665,
+      "versionNonce": 798099586,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "DEmPccza7epAp6qDsWTUs",
+          "type": "arrow"
+        },
+        {
+          "id": "IZe-K3GP-Mef2GuF5v4rs",
+          "type": "arrow"
+        },
+        {
+          "id": "FPxijeLeIfHu5SRsUiE3R",
+          "type": "arrow"
+        },
+        {
+          "id": "k-tspwpYJd8UJK71pax3I",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1775064666426,
+      "link": null,
+      "locked": false,
+      "text": "1-React Nedir\n2-React Kurulumu\n3-JSX\n4-Component'ler\n5-Props\n6-Component Composition\n\nState Yönetimi ve Event Handling\n=====\n- Tailwind \n- DaisyUI\n\nState Nedir?\n=====\nlet ile oluşturulan değişkenler render tetiklemez\nrender: Ekrana ilgili değişikliğin yansıması\n\nLifecycle: \n====\n- Bir component doğar, yaşar (render), ölür\n\nuseState()\nprops -> çocuğa aktarılir ama değiştirilemez\nstate -> değiştirilebilir\n\nconst [sayi, setSayi] = useState(42)\n\n\n         mevcut deger.      başlangıç değeri\n\nguncellemek içın fonksiyon\n",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1-React Nedir\n2-React Kurulumu\n3-JSX\n4-Component'ler\n5-Props\n6-Component Composition\n\nState Yönetimi ve Event Handling\n=====\n- Tailwind \n- DaisyUI\n\nState Nedir?\n=====\nlet ile oluşturulan değişkenler render tetiklemez\nrender: Ekrana ilgili değişikliğin yansıması\n\nLifecycle: \n====\n- Bir component doğar, yaşar (render), ölür\n\nuseState()\nprops -> çocuğa aktarılir ama değiştirilemez\nstate -> değiştirilebilir\n\nconst [sayi, setSayi] = useState(42)\n\n\n         mevcut deger.      başlangıç değeri\n\nguncellemek içın fonksiyon\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "0RbJ2BRTI4Ido286_b06I",
+      "type": "rectangle",
+      "x": -1050.1652890744774,
+      "y": 10413.427151888156,
+      "width": 230.51134989685534,
+      "height": 148.63511780785848,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5P",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2000487582,
+      "version": 113,
+      "versionNonce": 529571870,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "R3sdV5xFITbjSDNUM9aX8",
+          "type": "arrow"
+        },
+        {
+          "id": "lxirxG6yy4slKtoVt4FXy",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1775064555311,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "ybShOtG-KzBxMp88VoHfA",
+      "type": "text",
+      "x": -1043.6969773336955,
+      "y": 10366.3746639018,
+      "width": 48.99998474121094,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5Q",
+      "roundness": null,
+      "seed": 1755534850,
+      "version": 47,
+      "versionNonce": 1030982146,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064504933,
+      "link": null,
+      "locked": false,
+      "text": "App",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "App",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "4EOPcjg5TyeKtLF2GJt0f",
+      "type": "text",
+      "x": -965.1443068663151,
+      "y": 10450.351931144578,
+      "width": 53.00396728515625,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5R",
+      "roundness": null,
+      "seed": 292614466,
+      "version": 77,
+      "versionNonce": 54994370,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064512190,
+      "link": null,
+      "locked": false,
+      "text": "sayi\n42",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "sayi\n42",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "R3sdV5xFITbjSDNUM9aX8",
+      "type": "arrow",
+      "x": -934.9149317853863,
+      "y": 10568.062269696014,
+      "width": 0.4808552669973096,
+      "height": 101.70088896992638,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5T",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 578919938,
+      "version": 192,
+      "versionNonce": 649661122,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "2qpeXcbbRoYNEd0zDDt9z"
+        }
+      ],
+      "updated": 1775064529866,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.4808552669973096,
+          101.70088896992638
+        ]
+      ],
+      "startBinding": {
+        "elementId": "0RbJ2BRTI4Ido286_b06I",
+        "mode": "orbit",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "2qpeXcbbRoYNEd0zDDt9z",
+      "type": "text",
+      "x": -985.3565413235796,
+      "y": 10579.448053429001,
+      "width": 100.93995666503906,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5U",
+      "roundness": null,
+      "seed": 333523358,
+      "version": 9,
+      "versionNonce": 681314270,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064526481,
+      "link": null,
+      "locked": false,
+      "text": "setSayi",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "R3sdV5xFITbjSDNUM9aX8",
+      "originalText": "setSayi",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "s60ulStvURgCoprHUO1DC",
+      "type": "ellipse",
+      "x": -1013.2620934548163,
+      "y": 10675.593968528416,
+      "width": 171.82619223424444,
+      "height": 122.95623117348077,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5V",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1105231518,
+      "version": 81,
+      "versionNonce": 1666813214,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "7yInvP9ZZzfOJXG9C9Vzh"
+        },
+        {
+          "id": "lxirxG6yy4slKtoVt4FXy",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1775064553874,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "7yInvP9ZZzfOJXG9C9Vzh",
+      "type": "text",
+      "x": -967.4007092597842,
+      "y": 10702.100491689202,
+      "width": 79.60395812988281,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5VV",
+      "roundness": null,
+      "seed": 1477284354,
+      "version": 19,
+      "versionNonce": 204223810,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064545970,
+      "link": null,
+      "locked": false,
+      "text": "sayi =\n43",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s60ulStvURgCoprHUO1DC",
+      "originalText": "sayi = 43",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "FzhGfH-H6n4KPtNJNTGZd",
+      "type": "text",
+      "x": -863.0390517610739,
+      "y": 10660.171680442747,
+      "width": 81.36796569824219,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5X",
+      "roundness": null,
+      "seed": 626853470,
+      "version": 46,
+      "versionNonce": 809043486,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064540662,
+      "link": null,
+      "locked": false,
+      "text": "React",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "React",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "lxirxG6yy4slKtoVt4FXy",
+      "type": "arrow",
+      "x": -1018.4187777608439,
+      "y": 10727.952272513076,
+      "width": 51.390509740339326,
+      "height": 170.377782807911,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5Y",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 988567646,
+      "version": 112,
+      "versionNonce": 20847874,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "gRGImT7kdedLfOlW3xwwl"
+        }
+      ],
+      "updated": 1775064559453,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -51.390509740339326,
+          -91.00879895978142
+        ],
+        [
+          -18.41339276141923,
+          -170.377782807911
+        ]
+      ],
+      "startBinding": {
+        "elementId": "s60ulStvURgCoprHUO1DC",
+        "mode": "orbit",
+        "fixedPoint": [
+          0,
+          0.5001
+        ]
+      },
+      "endBinding": {
+        "elementId": "0RbJ2BRTI4Ido286_b06I",
+        "mode": "inside",
+        "fixedPoint": [
+          0.05784148397977069,
+          0.9698067316994942
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "gRGImT7kdedLfOlW3xwwl",
+      "type": "text",
+      "x": -1124.9412683971793,
+      "y": 10619.443473553294,
+      "width": 110.26396179199219,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5Z",
+      "roundness": null,
+      "seed": 1914087710,
+      "version": 10,
+      "versionNonce": 672103326,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064558855,
+      "link": null,
+      "locked": false,
+      "text": "rerender",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "lxirxG6yy4slKtoVt4FXy",
+      "originalText": "rerender",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "DEmPccza7epAp6qDsWTUs",
+      "type": "arrow",
+      "x": -496.17814961684246,
+      "y": 10598.461671999874,
+      "width": 0.5863925406115413,
+      "height": 39.00728114442063,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5a",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1926865758,
+      "version": 44,
+      "versionNonce": 117549122,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064666427,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.5863925406115413,
+          -39.00728114442063
+        ]
+      ],
+      "startBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.21494524811797514,
+          0.9375452545321831
+        ]
+      },
+      "endBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.2140284019093816,
+          0.9027173249389504
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": true
+    },
+    {
+      "id": "IZe-K3GP-Mef2GuF5v4rs",
+      "type": "arrow",
+      "x": -428.2061324982251,
+      "y": 10531.184229165696,
+      "width": 76.43952540504762,
+      "height": 72.3712642677383,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5c",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2122575298,
+      "version": 94,
+      "versionNonce": 1457999874,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064666427,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -76.43952540504762,
+          -72.3712642677383
+        ]
+      ],
+      "startBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.32122198574609345,
+          0.8774761091445238
+        ]
+      },
+      "endBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.20170598886588528,
+          0.8128589089054717
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": true
+    },
+    {
+      "id": "FPxijeLeIfHu5SRsUiE3R",
+      "type": "arrow",
+      "x": -302.5747884085448,
+      "y": 10604.962835530903,
+      "width": 104.67497778275941,
+      "height": 147.5363632178578,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5e",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 743593474,
+      "version": 83,
+      "versionNonce": 859963330,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064666427,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -104.67497778275941,
+          -147.5363632178578
+        ]
+      ],
+      "startBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.5176511923471994,
+          0.9433498648277447
+        ]
+      },
+      "endBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.35398803180520544,
+          0.8116209690975146
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": true
+    },
+    {
+      "id": "k-tspwpYJd8UJK71pax3I",
+      "type": "arrow",
+      "x": -152.55472700756434,
+      "y": 10530.527469520212,
+      "width": 1.045081816823199,
+      "height": 73.23391284970421,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5f",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1624679134,
+      "version": 52,
+      "versionNonce": 1479587714,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775064666427,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1.045081816823199,
+          -73.23391284970421
+        ]
+      ],
+      "startBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.7522130514817177,
+          0.8768897166039129
+        ]
+      },
+      "endBinding": {
+        "elementId": "fp-GoYSq2S-9PHjlsqQyO",
+        "mode": "inside",
+        "fixedPoint": [
+          0.7538470751690333,
+          0.811502294416677
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "moveMidPointsWithElement": true
+    },
+    {
+      "id": "P5c9zbHm20XIe4Mb2RyG7",
+      "type": "text",
+      "x": -622.556401758803,
+      "y": 10674.415127479444,
+      "width": 1104.54345703125,
+      "height": 2800,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5h",
+      "roundness": null,
+      "seed": 2068502494,
+      "version": 2765,
+      "versionNonce": 1357981314,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1775071133100,
+      "link": null,
+      "locked": false,
+      "text": "Kurallar\n====\n- useState component içinde ve en üst seviyede yazılır. \n- Her zaman componentte kullanalım\n- Her zaman setter fonksiyonunu kullan\n- Spread Operator'den faydalan\n- O ankı güncel değere ihtiyacın varsa prev => metodu kullan\n\nInput Eventlerinde yapılan hatalar\n- 1. handleChange = (e: any) şeklide kullanmak\ne.target.val gibi yazımlara neden olabiliyor.\nDoğrusu:\nhandleChange = (e: ChangeEvent<HTMLInputElement>) => {}\n\n2. Metodu direkt cağırmak\nx Yanlış\nonChange={handleChange()}\nDoğru (arrow func)\nonChange={e => handleChange(e)}\nDoğru\nonChange={handleChange}\n\n3. Doğru input type ve name ve autocomplete kullanmak\nemail => type=\"email\" gibi\nKredi kartı için name=\"ccName\" gibi\n\n4. OTP gibi senaryolarda hazır kütüphane kullanın\nveya dümdüz 1 input kullanın\n\nuseRef\n======\n- Uncontrolled bir şekilde input'a erişim sağlar\n- Rerender tetiklemez\n- Böylece performanslıdır\n- Ancak yazımı zordur.\n- ref ataması yapılmazsa çalışma anında hata alabiliriz.\nBunun yerine ya state kullanın, ya da form kütüphaneleri\n\n- Input'larda useREf kullanmayın\n- <video> elementlerinde play/pause gerekiyor burada lazım\n- Animasyonlarda useRef kullanılır\n\nMülakatlarda çıkacak sorular:\n=======\n1- JSX Nedir\n  - JavaScript XML demektir\n  - Güvenlik de sağlar\n  - React kod yazımını kolaylaştırır\n2- VDOM Nedir\n  - Virtual DOM (Sanal DOM)\n  - Arka planda render ağacında güncellemeler gerçekleştirilir\n  - Birden fazla innerHTML yerine tek seferde update geçer\n  - Performans sağlar\n  - Vue, Angular, React var\n3- props nedir\n  - Tek yönlü veri aktarımı sağlar\n  - parent-> child\n  - Değiştirilemez\n4- state nedir\n  - Değiştiğinde render tetikleyen bir değişken ve setter yer alınr\n  - const [degisken, setter] = useState(baslangicDegeri)\n  - prev ile o anki değer alınabilir\n5- Controlled vs Uncontrolled Component\n  - Input React'e bağlı ve state kullanıyorsak controlled     \n  - useRef kullanıyorsak uncontrolled\n6- Spread operator nedir? Nerede kullanılır\n7- Typescript neden kullanıyoz\n8- React Nedir? jQuery neyimize yetmiyor?\n9- Tailwind ile aran nasıl\n10- Component composition nedir? Backend'deki inheritance ile farkı?\n   - Backend'deki inheritance'ı React'te nasıl kurarsın? Class kullanmadan? JSX ile?\n11- Component nedir?\n12- Render nedir?\n13- Rerender neden performanslı değil diyola\n14- state'e yüklü veri basıcaz diyelim nasıl set ederiz?\n    useState(()=> milyonlarcaVeri)\n15- state ve props farkı\n16- preventDefault nedir? neden kullanırız\n\n",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Kurallar\n====\n- useState component içinde ve en üst seviyede yazılır. \n- Her zaman componentte kullanalım\n- Her zaman setter fonksiyonunu kullan\n- Spread Operator'den faydalan\n- O ankı güncel değere ihtiyacın varsa prev => metodu kullan\n\nInput Eventlerinde yapılan hatalar\n- 1. handleChange = (e: any) şeklide kullanmak\ne.target.val gibi yazımlara neden olabiliyor.\nDoğrusu:\nhandleChange = (e: ChangeEvent<HTMLInputElement>) => {}\n\n2. Metodu direkt cağırmak\nx Yanlış\nonChange={handleChange()}\nDoğru (arrow func)\nonChange={e => handleChange(e)}\nDoğru\nonChange={handleChange}\n\n3. Doğru input type ve name ve autocomplete kullanmak\nemail => type=\"email\" gibi\nKredi kartı için name=\"ccName\" gibi\n\n4. OTP gibi senaryolarda hazır kütüphane kullanın\nveya dümdüz 1 input kullanın\n\nuseRef\n======\n- Uncontrolled bir şekilde input'a erişim sağlar\n- Rerender tetiklemez\n- Böylece performanslıdır\n- Ancak yazımı zordur.\n- ref ataması yapılmazsa çalışma anında hata alabiliriz.\nBunun yerine ya state kullanın, ya da form kütüphaneleri\n\n- Input'larda useREf kullanmayın\n- <video> elementlerinde play/pause gerekiyor burada lazım\n- Animasyonlarda useRef kullanılır\n\nMülakatlarda çıkacak sorular:\n=======\n1- JSX Nedir\n  - JavaScript XML demektir\n  - Güvenlik de sağlar\n  - React kod yazımını kolaylaştırır\n2- VDOM Nedir\n  - Virtual DOM (Sanal DOM)\n  - Arka planda render ağacında güncellemeler gerçekleştirilir\n  - Birden fazla innerHTML yerine tek seferde update geçer\n  - Performans sağlar\n  - Vue, Angular, React var\n3- props nedir\n  - Tek yönlü veri aktarımı sağlar\n  - parent-> child\n  - Değiştirilemez\n4- state nedir\n  - Değiştiğinde render tetikleyen bir değişken ve setter yer alınr\n  - const [degisken, setter] = useState(baslangicDegeri)\n  - prev ile o anki değer alınabilir\n5- Controlled vs Uncontrolled Component\n  - Input React'e bağlı ve state kullanıyorsak controlled     \n  - useRef kullanıyorsak uncontrolled\n6- Spread operator nedir? Nerede kullanılır\n7- Typescript neden kullanıyoz\n8- React Nedir? jQuery neyimize yetmiyor?\n9- Tailwind ile aran nasıl\n10- Component composition nedir? Backend'deki inheritance ile farkı?\n   - Backend'deki inheritance'ı React'te nasıl kurarsın? Class kullanmadan? JSX ile?\n11- Component nedir?\n12- Render nedir?\n13- Rerender neden performanslı değil diyola\n14- state'e yüklü veri basıcaz diyelim nasıl set ederiz?\n    useState(()=> milyonlarcaVeri)\n15- state ve props farkı\n16- preventDefault nedir? neden kullanırız\n\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
