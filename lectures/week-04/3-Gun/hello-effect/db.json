@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "id": "1", "name": "Gülben" },
+    { "id": "2", "name": "Göker" },
+    { "id": "3", "name": "Zafer" }
+  ]
+}
